@@ -1,0 +1,5 @@
+# Static site with no build step: Netlify publishes the "site" folder as-is.
+# Response headers live in site/_headers so they also apply to drag-and-drop deploys.
+[build]
+  publish = "site"
+  command = ""
